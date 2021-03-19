@@ -3,3 +3,34 @@
 - 1:00->3:00 - breath hold (aerobic)
 - 3:00->3:30 - recovery / normal
 
+~~ 04 ~~
+- 0->0:30 - normal
+- 0:30->3:00 - breath hold (aerobic)
+- 3:00->3:30 - recovery / normal
+
+~~ 05 ~~
+- 0 -> 0:30
+- 0:30 -> 2:30 - breath hold (aerobic)
+- 2:30 -> 3:05 - normal
+- 3:05 -> 4:25 - breath hold
+- 4:25 -> 4:30 - normal
+
+~~ 06 ~~
+normal for 2min
+
+~~ 07 ~~
+breath hold 0:15 -> 2:00
+
+~~ 08 ~~
+normal for 2min, no sensor contact, reference measured
+
+=> AR Ratio Linear Regression score: 0.145 (batch size 10, i.e. 1 second)
+
+
+~~ 09 ~~
+breath hold until 2:05, normal until 3:00
+  - no sensor contact, reference measured
+
+=> AR Ratio Linear Regression score: 0.0921 (batch size 10, i.e. 1 second)
+
+
